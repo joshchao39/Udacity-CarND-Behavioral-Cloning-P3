@@ -89,5 +89,7 @@ It was found after hours of training models that the input image in autonomous m
 
 ####2. Control feedback due to lag
 Due to the asynchronous nature of data processing in autonomous mode, the car drives much smoother on my desktop PC than on my laptop. Two things noted:
+
 1. Small delay in model response in production can cause large impact in performance
+
 2. Instability in dynamic control system needs to be taken into consideration when designing the architecture
